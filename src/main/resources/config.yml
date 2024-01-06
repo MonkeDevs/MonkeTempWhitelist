@@ -1,0 +1,18 @@
+messages:
+  usage: |-
+    <red>MonkeTempWhitelist</red><newline>
+    <green>/tempwl <white>addtemp <player> <time><newline>
+    <green>/tempwl <white>add <player><newline>
+    <green>/tempwl <white>remove <player><newline>
+    <green>/tempwl <white>list
+    <green>/tempwl <white>reload
+  removed-kick: '<red>You have been deleted from whitelist!'
+  removed: '<red>[MonkeTWL] <green>{0} removed from whitelist.'
+  temp-whitelisted: '<red>[MonkeTWL] <green>{0} <white>whitelisted for <green>{1}<white>.' # {0} - player, {1} - time
+  whitelisted: '<red>[MonkeTWL] <green>{0} <white>whitelisted.' # {0} - player
+  not-whitelisted: '<red>[MonkeTWL] <green>{0} <white>is not in whitelist!' # {0} - player
+  list: |- # {0} - players cound, {1} - list
+    <red>MonkeTempWhitelist</red><newline>
+    <green>[{0} players] <white>{1}
+  reload: '<red>[MonkeTWL] <white>Plugin reloaded!'
+  no-permission: "<red>[MonkeTWL] <white>You doesn't have permission for this command!"

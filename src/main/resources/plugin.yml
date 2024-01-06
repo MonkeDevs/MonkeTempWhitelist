@@ -1,0 +1,23 @@
+name: MonkeTempWhitelist
+version: '${version}'
+main: uwu.vutuvmonke.monketempwhitelist.MonkeTempWhitelist
+api-version: '1.20'
+load: STARTUP
+authors: [ MonkeDevs ]
+description: Temporary Whitelist
+website: https://github.com/monkedevs
+prefix: MonkeTWL
+
+commands:
+  tempwhitelist:
+    aliases: [ 'twl', 'tempwl' ]
+
+default-permission: op
+
+permissions:
+  monketempwhitelist.use: { }
+  monketempwhitelist.reload: { }
+  monketempwhitelist.*:
+    children:
+      - monketempwhitelist.use
+      - monketempwhitelist.reload
